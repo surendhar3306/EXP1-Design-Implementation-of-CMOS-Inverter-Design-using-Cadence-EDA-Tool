@@ -1,5 +1,3 @@
-Ex No: 01     Design & Implementation of CMOS Inverter Design Using Cadence EDA Tools   
-
 Aim:
 To design and implement a CMOS inverter circuit using Cadence EDA tools, analyse its electrical characteristics, and understand the fundamental principles of CMOS technology, including the design process, layout, and simulation techniques.
 
@@ -46,7 +44,8 @@ ii)	Create Schematic Cell view.
 	Create Input and Output pins
 	Make the connections by using fixed narrow wire key
 	Click Check and Save button
-![image](https://github.com/user-attachments/assets/784d0afa-d8c6-4d7d-8681-84e5c851ea37)
+
+![Screenshot 2024-08-28 154127](https://github.com/user-attachments/assets/7273f26d-09be-47d2-829c-8fd1960994c8)
 
 
  
@@ -64,7 +63,7 @@ iii)	Creating the Symbol for schematic Cell view
 •	Check for the position of pin side.Prss OK
 •	Edit for the shape by Create-Shape-Choose required options to edit.
 
- ![image](https://github.com/user-attachments/assets/e947dcda-b023-4668-a955-a5faf0949702)
+![Screenshot 2024-08-28 154146](https://github.com/user-attachments/assets/eb0b66f8-fbc3-4243-a830-96889588c912)
 
 
 iv)	Creating the new test cell view
@@ -76,11 +75,11 @@ iv)	Creating the new test cell view
 	View: Schematic
 	Type: Schematic press OK
 •	Follow the step 3(ii) d to make the required connections
-![image](https://github.com/user-attachments/assets/0f1eb390-537e-4915-a9d5-6855883745d4)
 
+.![Screenshot 2024-08-28 154159](https://github.com/user-attachments/assets/b9622f7b-52f1-47f7-af87-36fd6765a464)
 
  
-Analog simulation by SPECTRE.
+Analog simulation by SPECTRE
 •	In test cell view window
 •	Launch – ADE L(Analog Design Environment)
 	Execute Setup—Simulation/directory/Host A new window opens
@@ -90,21 +89,22 @@ Analog simulation by SPECTRE.
 	Execute Output s—to be plotted – Select on Schematic
 	Then Select the INPUT WIRE(Vin ) and OUTPUT WIRE(Vout) from your test Schematic using mouse
 •	Execute Simulation -- Net list and Run
- ![image](https://github.com/user-attachments/assets/3aac50ec-bc0f-406e-be2e-a504b8afa8c9)
+ ![Screenshot 2024-08-28 154214](https://github.com/user-attachments/assets/d6caea83-1377-4515-8c2d-4710e7fe4794)
 
 For Transient Analysis Settings and Output
  
  
- ![image](https://github.com/user-attachments/assets/92d14f32-8ba5-4fed-978a-38c360b8e305)
-
- ![image](https://github.com/user-attachments/assets/b86fd87f-7a66-47f5-bc26-2b5f4cb5679d)
-
- For DC Analysis Settings and Output
-![image](https://github.com/user-attachments/assets/0ee74107-e03a-4204-b685-83ced611c993)
-
-![image](https://github.com/user-attachments/assets/e6b8b6c7-378f-449e-82a5-72286f238b02)
+![Screenshot 2024-08-28 154227](https://github.com/user-attachments/assets/dfeef06d-fcb6-4d51-8b92-1bf98a272097)
 
  
+
+ 
+ For DC Analysis Settings and Output
+![Screenshot 2024-08-28 154603](https://github.com/user-attachments/assets/d7d5dc6a-a16f-4d46-ae21-3cb88d92632e)
+
+
+ *![Screenshot 2024-08-28 154509](https://github.com/user-attachments/assets/b1485a3c-59fa-46dd-bc9a-19c835c521bf)
+
 
 
 
